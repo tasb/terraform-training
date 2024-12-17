@@ -62,7 +62,7 @@ jobs:
         planfile: ./infraPlan
 
     - name: Upload plan
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: plan
         path: ./infraPlan
