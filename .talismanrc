@@ -1,4 +1,6 @@
 fileignoreconfig:
+- filename: .github/workflows/pull_request.yml
+  checksum: 3ce37205fa28e219e843e0400262556d2f86e5204e1976c7b7be46f64010a41b
 - filename: backend/.terraform.lock.hcl
   checksum: 678ffaa511b80e64c394ff5a51050f3242bc6618862d18ed5bfa0ad449bc4c90
 - filename: backend/versions.tf
