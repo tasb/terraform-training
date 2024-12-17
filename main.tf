@@ -69,7 +69,7 @@ module "database" {
   location            = var.location
   admin_user          = local.db_admin_user
   admin_password      = var.db_password
-  version             = "14"
+  psql_version        = "14"
   zone                = "1"
   storage_mb          = 32768
   sku_name            = "B_Standard_B1ms"
