@@ -1,0 +1,10 @@
+fileignoreconfig:
+- filename: backend/.terraform.lock.hcl
+  checksum: 678ffaa511b80e64c394ff5a51050f3242bc6618862d18ed5bfa0ad449bc4c90
+- filename: backend/versions.tf
+  checksum: 6d936c2c3ca95a1e713a8ea569cc627df6ecf671cc95df97ccbe86467df2cbcc
+- filename: main.tf
+  checksum: 37394d3e07ea7f7919e61ba23c1f10bd4848fa03bb968d38a71341353c9cbe95
+- filename: modules/psql/main.tf
+  checksum: 544a3c260b76876d01d30f48e059b4ec840b7c9b41d78ffa1e7a0af3cd820f87
+version: "1.0"
