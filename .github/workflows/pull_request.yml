@@ -66,7 +66,7 @@ jobs:
       run: terraform init
 
     - name: Terraform Plan
-      run: terraform plan -var=db_password=${{ secrets.DB_PASSWORD }} -out ./infraPlan
+      run: terraform plan -var=db_password=${{ secrets.DB_PASSWORD }} -var=prefix=tasb -out ./infraPlan
 
     - name: Post PR comment
       uses: borchero/terraform-plan-comment@v2
