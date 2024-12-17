@@ -29,7 +29,7 @@ jobs:
       with:
         output_format: cli,sarif
         output_file_path: console,results.sarif
-        directory: <your-directory>
+        directory: .
   
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v3
