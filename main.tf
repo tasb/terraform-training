@@ -63,7 +63,7 @@ module "app_service" {
 }
 
 module "database" {
-  source              = "./modules/database"
+  source              = "./modules/psql"
   name                = local.db_server_name
   resource_group_name = module.resource_group_db.name
   location            = var.location
